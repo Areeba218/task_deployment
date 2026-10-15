@@ -63,7 +63,7 @@ function ChangePassword() {
       setLoading(true);
 
       await axios.post(
-        `http://localhost:3000/user/change-password/${encodeURIComponent(savedEmail)}`,
+        `https://nodejs-project-noor.onrender.com/user/change-password/${encodeURIComponent(savedEmail)}`,
         {
           newPassword: password,
           confirmPassword,

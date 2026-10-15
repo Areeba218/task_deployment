@@ -32,7 +32,7 @@ function Signup() {
     try {
       setLoading(true);
 
-      await axios.post("http://localhost:3000/user/register", {
+      await axios.post("https://nodejs-project-noor.onrender.com/user/register", {
         username,
         email,
         password,

@@ -30,7 +30,7 @@ function ForgotPassword() {
       setLoading(true);
 
       await axios.post(
-        "http://localhost:3000/user/forgot-password",
+        "https://nodejs-project-noor.onrender.com/user/forgot-password",
         { email }
       );
 

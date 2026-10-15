@@ -44,7 +44,7 @@ function VerfifyOtp() {
       setLoading(true);
 
       await axios.post(
-        `http://localhost:3000/user/verify-otp/${encodeURIComponent(savedEmail)}`,
+        `https://nodejs-project-noor.onrender.com/user/verify-otp/${encodeURIComponent(savedEmail)}`,
         { otp }
       );
 
